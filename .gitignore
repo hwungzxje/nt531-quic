@@ -1,0 +1,11 @@
+*.pcap
+*.pcapng
+*.sqlog
+*.qlog
+*.mp4
+*.bin
+keys/
+pcap/
+qlog/
+perf.data*
+__pycache__/
