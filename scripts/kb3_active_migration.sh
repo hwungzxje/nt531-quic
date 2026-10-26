@@ -6,19 +6,20 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 N=${1:-10}; DUR=${2:-2s}
 CLI=${CLI:-/opt/quic/bin/gtlsclient}
-mkdir -p pcap/kb3 qlog/kb3 data/kb3 keys
+mkdir -p pcap/kb3 qlog/kb3 data/kb3 keys /tmp/kb3dl
 export SSLKEYLOGFILE=$PWD/keys/sslkey.log
 ./scripts/netem.sh 25 0 20 >/dev/null
 OUT=data/kb3/kb3_active_$(date +%Y%m%d).csv
 [ -f "$OUT" ] || echo "run,exit_code,total_s" > "$OUT"
 for run in $(seq 1 "$N"); do
   PCAP=pcap/kb3/kb3_h3_active_run${run}.pcap
-  ip netns exec server tcpdump -q -i veth-s -s 200 -w "$PCAP" -U 'udp port 443' 2>/dev/null & TD=$!
+  mkdir -p qlog/kb3/active_run${run}
+  ip netns exec server tcpdump -q -i veth-s -w "$PCAP" -U 'udp port 443' 2>/dev/null & TD=$!
   sleep 0.5
   T0=$(date +%s.%N)
   set +e
   ip netns exec client timeout 60 "$CLI" -q --exit-on-all-streams-close --change-local-addr="$DUR" \
-     --qlog-dir=qlog/kb3 --download=/tmp/kb3dl 10.0.2.2 443 https://10.0.2.2/10mb.bin >/dev/null 2>logs_kb3_active.err
+     --qlog-dir=qlog/kb3/active_run${run} --download=/tmp/kb3dl 10.0.2.2 443 https://10.0.2.2/10mb.bin >/dev/null 2>logs_kb3_active.err
   RC=$?
   set -e
   T1=$(date +%s.%N)
