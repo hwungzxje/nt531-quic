@@ -1,0 +1,9 @@
+qlog_path_challenge,qlog_path_response,proto,tag,run,data_pkts,last_data_s,max_gap_ms,gap_starts_s,switched,data_on_new_addr,path_challenge,path_response,tcp_rst
+0,0,h2,base,1,7175,4.629,47.8,0.168,False,False,0,0,0
+0,0,h2,base,2,7136,4.607,48.0,0.17,False,False,0,0,0
+0,0,h2,nat,1,2968,2.08,46.6,0.169,False,False,0,0,0
+0,0,h2,nat,2,3164,2.203,53.6,0.167,True,False,0,0,140
+0,0,h3,base,1,7314,8.598,56.5,0.055,False,False,0,0,0
+0,0,h3,base,2,7224,8.696,56.8,0.055,False,False,0,0,0
+4,4,h3,nat,1,7319,9.223,81.8,2.042,True,True,2,2,0
+4,4,h3,nat,2,7318,9.029,81.6,2.063,True,True,2,0,0
