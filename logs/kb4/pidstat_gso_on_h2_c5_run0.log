@@ -1,0 +1,45 @@
+Linux 6.8.0-139-generic (nt531-quic) 	10/26/2026 	_x86_64_	(2 CPU)
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+08:18:30 AM    33     32930    0.99    1.98    0.00    0.99    2.97     1    187.13      0.00   18032   12188   0.31  nginx
+08:18:30 AM    33     32931    0.00    0.99    0.00    0.00    0.99     1    156.44      0.00   18100   12060   0.30  nginx
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+08:18:31 AM    33     32930    1.00    4.00    0.00    0.00    5.00     1      0.00      0.00   18032   12188   0.31  nginx
+08:18:31 AM    33     32931    1.00    0.00    0.00    1.00    1.00     1     16.00      0.00   17956   12060   0.30  nginx
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+08:18:32 AM    33     32930    1.00    4.00    0.00    0.00    5.00     1      0.00      0.00   18032   12188   0.31  nginx
+08:18:32 AM    33     32931    0.00    2.00    0.00    0.00    2.00     1      0.00      0.00   17956   12060   0.30  nginx
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+08:18:33 AM    33     32930    0.00    3.00    0.00    0.00    3.00     1      0.00      0.00   18032   12188   0.31  nginx
+08:18:33 AM    33     32931    0.00    0.00    0.00    0.00    0.00     1      0.00      0.00   17956   12060   0.30  nginx
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+08:18:34 AM    33     32930    1.00    5.00    0.00    0.00    6.00     1      0.00      0.00   18032   12188   0.31  nginx
+08:18:34 AM    33     32931    1.00    0.00    0.00    0.00    1.00     1      0.00      0.00   17956   12060   0.30  nginx
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+08:18:35 AM    33     32930    2.00    7.00    0.00    1.00    9.00     1      1.00      0.00   18012   12188   0.31  nginx
+08:18:35 AM    33     32931    0.00    1.00    0.00    0.00    1.00     1      0.00      0.00   17956   12060   0.30  nginx
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+08:18:36 AM    33     32930    1.00    7.00    0.00    1.00    8.00     1      6.00      0.00   18144   12188   0.31  nginx
+08:18:36 AM    33     32931    0.00    1.00    0.00    0.00    1.00     1      0.00      0.00   17956   12060   0.30  nginx
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+08:18:37 AM    33     32930    2.00    4.00    0.00    1.00    6.00     1      0.00      0.00   17980   12032   0.30  nginx
+08:18:37 AM    33     32931    1.00    0.00    0.00    1.00    1.00     1     32.00      0.00   17956   12060   0.30  nginx
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+08:18:38 AM    33     32930    1.00    4.00    0.00    1.00    5.00     1     14.00      0.00   18112   12032   0.30  nginx
+08:18:38 AM    33     32931    0.00    1.00    0.00    0.00    1.00     1      0.00      0.00   17956   12060   0.30  nginx
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+08:18:39 AM    33     32930    0.00    4.00    0.00    0.00    4.00     1      0.00      0.00   18112   12032   0.30  nginx
+08:18:39 AM    33     32931    0.00    1.00    0.00    0.00    1.00     1     16.00      0.00   17956   12060   0.30  nginx
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+08:18:40 AM    33     32930    1.00    4.00    0.00    2.00    5.00     1      0.00      0.00   18112   12032   0.30  nginx
+08:18:40 AM    33     32931    1.00    1.00    0.00    0.00    2.00     1     32.00      0.00   17956   12060   0.30  nginx

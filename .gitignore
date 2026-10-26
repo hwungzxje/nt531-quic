@@ -9,3 +9,4 @@ pcap/
 qlog/
 perf.data*
 __pycache__/
+*.data
