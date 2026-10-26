@@ -13,17 +13,17 @@ DAY=$(date +%Y%m%d); mkdir -p data/kb4 logs/kb4
 OUT=data/kb4/kb4_${TAG}_${DAY}.csv
 [ -f "$OUT" ] || echo "proto,clients,run,tag,cpu_s,cpu_pct,rss_mb,mb_s,cpu_s_per_gb,errors" > "$OUT"
 HZ=$(getconf CLK_TCK)
-./scripts/netem.sh 25 0 10000 >/dev/null     # RTT 50 ms, không giới hạn băng thông
+RATE=${RATE:-100}; ./scripts/netem.sh 25 0 "$RATE" >/dev/null
 
-workers(){ pgrep -f 'nginx: worker' | tr '\n' ' '; }
-ticks(){ local s=0; for p in $(workers); do s=$((s + $(awk '{print $14+$15}' /proc/$p/stat))); done; echo $s; }
-rss_mb(){ local s=0; for p in $(workers); do s=$((s + $(awk '/VmRSS/{print $2}' /proc/$p/status))); done; echo $((s/1024)); }
+workers(){ pgrep -f '^nginx: worker process$' | tr '\n' ' '; }
+ticks(){ local s=0 v; for p in $(workers); do v=$(awk '{print $14+$15}' /proc/$p/stat 2>/dev/null || true); s=$((s + ${v:-0})); done; echo $s; }
+rss_mb(){ local s=0 v; for p in $(workers); do v=$(awk '/VmRSS/{print $2}' /proc/$p/status 2>/dev/null || true); s=$((s + ${v:-0})); done; echo $((s/1024)); }
 URLS=$(for i in $(seq 1 400); do printf -- '-o /dev/null https://10.0.2.2/1mb.bin '; done)
 
 one_client(){   # $1=flag $2=end_epoch $3=file
   while [ "$(date +%s)" -lt "$2" ]; do
     ip netns exec client timeout $(( $2 - $(date +%s) + 1 )) taskset -c "$CLI_CPUS" "$CURL" -sk $1 \
-       -w '%{size_download}\n' $URLS 2>/dev/null >> "$3" || true
+       -w '%{stderr}%{size_download}\n' $URLS >/dev/null 2>> "$3" || true   # ghi ra stderr: không bị đệm, timeout không làm mất số liệu
   done
 }
 
@@ -41,7 +41,7 @@ for C in $CLIENTS; do
       B=$(ticks); T1=$(date +%s.%N)
       kill $PS $RS 2>/dev/null || true; wait $PS $RS 2>/dev/null || true
       BYTES=$(cat "$TMP"/c* 2>/dev/null | awk '{s+=$1} END{print s+0}')
-      ERR=$(cat "$TMP"/c* 2>/dev/null | awk '$1==0{e++} END{print e+0}')
+      ERR=$(cat "$TMP"/c* 2>/dev/null | awk '$1 !~ /^[0-9]+$/ || $1==0 {e++} END{print e+0}')
       MAXRSS=$(sort -n "$TMP/rss" | tail -1); rm -rf "$TMP"
       EL=$(echo "$T1 - $T0" | bc -l)
       CPU_S=$(echo "scale=3; ($B-$A)/$HZ" | bc -l)
