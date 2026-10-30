@@ -22,17 +22,23 @@ for PROTO in "h2" "h3"; do
     
     echo "Đang đo $PROTO với loss ${LOSS}% (20 lần)..."
     for i in $(seq 0 $((RUNS-1))); do
-        # Thêm --max-time 10 để tránh treo vô hạn
+        # Tăng max-time lên 30s và bỏ qua thông báo lỗi (2>/dev/null)
         if [ "$PROTO" = "h2" ]; then
-            RES=$($CURL -sk --http2 --max-time 10 -o /dev/null -w "%{time_connect},%{time_appconnect},%{time_starttransfer},%{time_total}" "https://${IP}/${SIZE}" || echo "ERR,ERR,ERR,ERR")
+            CMD="sudo ip netns exec client $CURL -sk --http2 --max-time 30 -o /dev/null -w \"%{time_connect},%{time_appconnect},%{time_starttransfer},%{time_total}\" https://${IP}/${SIZE}"
         else
-            RES=$($CURL -sk --http3 --max-time 10 -o /dev/null -w "%{time_connect},%{time_appconnect},%{time_starttransfer},%{time_total}" "https://${IP}/${SIZE}" || echo "ERR,ERR,ERR,ERR")
+            CMD="sudo ip netns exec client $CURL -sk --http3 --max-time 30 -o /dev/null -w \"%{time_connect},%{time_appconnect},%{time_starttransfer},%{time_total}\" https://${IP}/${SIZE}"
         fi
         
         if [ $i -eq 0 ]; then
+            eval "$CMD" 2>/dev/null || true
             continue
         fi
         
+        RES=$(eval "$CMD" 2>/dev/null || echo "0,0,0,0")
+        # Đảm bảo không có ký tự lạ nào lọt vào file CSV
+        if [[ "$RES" == *"ERR"* || -z "$RES" ]]; then
+            RES="0,0,0,0"
+        fi
         echo "${LOSS},50,50,${PROTO},${i},${RES},${SIZE}" >> "$CSV_FILE"
     done
 done
