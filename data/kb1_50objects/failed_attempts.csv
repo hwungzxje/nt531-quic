@@ -1,0 +1,469 @@
+timestamp,loss,proto,run,error
+2026-11-04T10:22:00+0700,10,2,5,"curl 92: curl: (92) HTTP/2 stream 1 reset by server (error 0x1 PROTOCOL_ERROR)
+
+Kết quả từng URL:
+https://10.0.2.2/kb1_50obj/obj1.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj2.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj3.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj4.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj5.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj6.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj7.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj8.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj9.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj10.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj11.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj12.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj13.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj14.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj15.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj16.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj17.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj18.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj19.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj20.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj21.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj22.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj23.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj24.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj25.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj26.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj27.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj28.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj29.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj30.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj31.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj32.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj33.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj34.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj35.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj36.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj37.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj38.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj39.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj40.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj41.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj42.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj43.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj44.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj45.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj46.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj47.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj48.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj49.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj50.bin,2,200,0,0
+"
+2026-11-04T10:32:59+0700,10,2,8,"curl 92: curl: (92) HTTP/2 stream 1 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 3 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 5 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 7 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 9 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 11 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 13 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 15 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 17 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 93 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 95 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 97 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 99 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 25 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 27 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 29 reset by server (error 0x1 PROTOCOL_ERROR)
+
+Kết quả từng URL:
+https://10.0.2.2/kb1_50obj/obj1.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj2.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj3.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj4.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj5.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj6.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj7.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj8.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj9.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj47.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj48.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj49.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj50.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj10.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj11.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj12.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj13.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj14.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj15.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj16.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj17.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj18.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj19.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj20.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj21.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj22.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj23.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj24.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj25.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj26.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj27.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj28.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj29.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj30.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj31.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj32.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj33.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj34.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj35.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj36.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj37.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj38.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj39.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj40.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj41.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj42.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj43.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj44.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj45.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj46.bin,2,200,0,0
+"
+2026-11-04T10:34:30+0700,10,2,8,"curl 92: curl: (92) HTTP/2 stream 1 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 3 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 5 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 7 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 9 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 85 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 87 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 89 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 91 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 93 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 95 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 97 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 99 reset by server (error 0x1 PROTOCOL_ERROR)
+
+Kết quả từng URL:
+https://10.0.2.2/kb1_50obj/obj1.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj2.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj3.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj4.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj5.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj43.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj44.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj45.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj46.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj47.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj48.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj49.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj50.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj6.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj7.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj8.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj9.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj10.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj11.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj12.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj13.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj14.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj15.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj16.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj17.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj18.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj19.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj20.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj21.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj22.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj23.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj24.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj25.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj26.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj27.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj28.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj29.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj30.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj31.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj32.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj33.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj34.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj35.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj36.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj37.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj38.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj39.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj40.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj41.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj42.bin,2,200,0,0
+"
+2026-11-04T10:41:18+0700,10,2,10,"curl 92: curl: (92) HTTP/2 stream 1 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 3 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 5 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 99 reset by server (error 0x1 PROTOCOL_ERROR)
+
+Kết quả từng URL:
+https://10.0.2.2/kb1_50obj/obj1.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj2.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj3.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj50.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj4.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj5.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj6.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj7.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj8.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj9.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj10.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj11.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj12.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj13.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj14.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj15.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj16.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj17.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj18.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj19.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj20.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj21.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj22.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj23.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj24.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj25.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj26.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj27.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj28.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj29.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj30.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj31.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj32.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj33.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj34.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj35.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj36.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj37.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj38.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj39.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj40.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj41.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj42.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj43.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj44.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj45.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj46.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj47.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj48.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj49.bin,2,200,0,0
+"
+2026-11-04T10:42:54+0700,10,2,10,"curl 92: curl: (92) HTTP/2 stream 3 reset by server (error 0x1 PROTOCOL_ERROR)
+
+Kết quả từng URL:
+https://10.0.2.2/kb1_50obj/obj1.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj2.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj3.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj4.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj5.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj6.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj7.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj8.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj9.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj10.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj11.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj12.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj13.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj14.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj15.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj16.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj17.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj18.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj19.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj20.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj21.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj22.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj23.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj24.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj25.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj26.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj27.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj28.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj29.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj30.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj31.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj32.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj33.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj34.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj35.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj36.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj37.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj38.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj39.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj40.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj41.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj42.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj43.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj44.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj45.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj46.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj47.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj48.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj49.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj50.bin,2,200,0,0
+"
+2026-11-04T10:44:30+0700,10,2,10,"curl 92: curl: (92) HTTP/2 stream 1 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 3 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 5 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 7 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 99 reset by server (error 0x1 PROTOCOL_ERROR)
+
+Kết quả từng URL:
+https://10.0.2.2/kb1_50obj/obj1.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj2.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj3.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj4.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj50.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj5.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj6.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj7.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj8.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj9.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj10.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj11.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj12.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj13.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj14.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj15.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj16.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj17.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj18.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj19.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj20.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj21.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj22.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj23.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj24.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj25.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj26.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj27.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj28.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj29.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj30.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj31.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj32.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj33.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj34.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj35.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj36.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj37.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj38.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj39.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj40.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj41.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj42.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj43.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj44.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj45.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj46.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj47.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj48.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj49.bin,2,200,0,0
+"
+2026-11-04T11:34:49+0700,10,2,19,"curl 92: curl: (92) HTTP/2 stream 1 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 3 reset by server (error 0x1 PROTOCOL_ERROR)
+
+Kết quả từng URL:
+https://10.0.2.2/kb1_50obj/obj1.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj2.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj3.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj4.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj5.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj6.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj7.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj8.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj9.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj10.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj11.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj12.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj13.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj14.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj15.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj16.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj17.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj18.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj19.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj20.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj21.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj22.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj23.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj24.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj25.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj26.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj27.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj28.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj29.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj30.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj31.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj32.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj33.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj34.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj35.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj36.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj37.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj38.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj39.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj40.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj41.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj42.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj43.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj44.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj45.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj46.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj47.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj48.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj49.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj50.bin,2,200,0,0
+"
+2026-11-04T11:36:26+0700,10,2,19,"curl 92: curl: (92) HTTP/2 stream 1 reset by server (error 0x1 PROTOCOL_ERROR)
+curl: (92) HTTP/2 stream 3 reset by server (error 0x1 PROTOCOL_ERROR)
+
+Kết quả từng URL:
+https://10.0.2.2/kb1_50obj/obj1.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj2.bin,2,200,0,92
+https://10.0.2.2/kb1_50obj/obj3.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj4.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj5.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj6.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj7.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj8.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj9.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj10.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj11.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj12.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj13.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj14.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj15.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj16.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj17.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj18.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj19.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj20.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj21.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj22.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj23.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj24.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj25.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj26.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj27.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj28.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj29.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj30.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj31.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj32.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj33.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj34.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj35.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj36.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj37.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj38.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj39.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj40.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj41.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj42.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj43.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj44.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj45.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj46.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj47.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj48.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj49.bin,2,200,0,0
+https://10.0.2.2/kb1_50obj/obj50.bin,2,200,0,0
+"

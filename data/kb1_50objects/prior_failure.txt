@@ -1,0 +1,10 @@
+Ghi chú hồi cứu từ đầu ra terminal được lưu trong cuộc trao đổi.
+
+Trước khi script hỗ trợ failed_attempts.csv, một lần thử HTTP/2
+tại loss 10% bị lỗi curl 92:
+HTTP/2 stream 1, 5, 7 reset by server (PROTOCOL_ERROR).
+
+Không có CSV thời gian của lần thất bại này.
+Sau đó failed_attempts.csv ghi thêm 8 lần H2 thất bại ở loss 10%.
+Tổng cộng ghi nhận 9 lần H2 thất bại, ngoài 20 lượt H2 thành công
+được dùng để tính trung vị tại loss 10%.
