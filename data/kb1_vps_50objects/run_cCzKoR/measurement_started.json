@@ -1,0 +1,10 @@
+{
+  "started": "2026-11-05T09:45:36.460381+07:00",
+  "server": "161.248.5.245",
+  "objects": 50,
+  "bytes_per_object": 102400,
+  "runs_per_protocol": 20,
+  "warmup_per_protocol": 1,
+  "method": "client output file mtime_ns minus time before curl launch",
+  "network": "Internet; no configured NetEm on client path"
+}
