@@ -8,7 +8,7 @@ Repo chứa toàn bộ script dựng môi trường, chạy đo và xử lý s�
 |---|---|---|
 | Hưng (TV1) | 24520596 | Môi trường, KB3, KB4, slide |
 | [Tên TV2] | [MSSV] | Công cụ đo, KB1, chứng minh bắt tay, đồ thị |
-| [Tên TV3] | [MSSV] | KB2, mã nguồn quiche, lý thuyết, ráp báo cáo |
+| An   (TV3) | 24520043 | KB2, mã nguồn quiche, lý thuyết, ráp báo cáo |
 
 ---
 

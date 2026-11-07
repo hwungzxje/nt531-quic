@@ -1,0 +1,12 @@
+{
+  "runs": 42,
+  "baseline_runs": 30,
+  "abba_runs": 12,
+  "exit_zero": true,
+  "reported_request_errors_zero": true,
+  "client_buffer_drops_zero": true,
+  "netem_drops_zero": true,
+  "listen_overflows_zero": true,
+  "listen_drops_zero": true,
+  "all_incomplete_equal_c_m": true
+}
