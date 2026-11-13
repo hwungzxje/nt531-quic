@@ -1,0 +1,7 @@
+2026-11-13 00:39:28 +0700
+qdisc netem 8001: root refcnt 129 limit 1000 delay 25ms loss 5% rate 50Mbit
+ Sent 15869328 bytes 215611 pkt (dropped 2383, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
+qdisc netem 8002: root refcnt 129 limit 1000 delay 25ms loss 5% rate 50Mbit
+ Sent 592403157 bytes 404807 pkt (dropped 21806, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
